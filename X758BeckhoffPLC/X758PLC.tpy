@@ -4,7 +4,7 @@
 	<ProjectInfo>
 		<Path>E:\Design\BECKHOFF\X758BeckhoffPLC\X758PLC.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2017-03-12T11:07:40</ChangeDate>
+		<ChangeDate>2017-03-12T21:18:49</ChangeDate>
 		<Library>
 			<Name>TcBase.lib</Name>
 			<Path>C:\TWINCAT\PLC\LIB\TcBase.lib</Path>
@@ -38,7 +38,7 @@
 	</ProjectInfo>
 	<RoutingInfo>
 		<AdsInfo>
-			<NetId>0.0.0.0.0.0</NetId>
+			<NetId>10.89.213.102.1.1</NetId>
 			<Port>801</Port>
 			<TargetName>
 				<![CDATA[Target: Local (10.89.213.102.1.1), Run Time: 1]]>
@@ -11463,7 +11463,7 @@
 	</Functions>
 	<Programs>
 		<Program>
-			<Name Decoration="10FA88EC" Crc32="0096045437" LastChange="2017-03-12T11:07:40">MAIN</Name>
+			<Name Decoration="1146AB4A" Crc32="3329621064" LastChange="2017-03-12T21:18:49">MAIN</Name>
 			<PrgInfo>
 				<CodeIndex>494</CodeIndex>
 				<Symbol>
@@ -11471,39 +11471,6 @@
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.SFCReset</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans1</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans2</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans3</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans4</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans5</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans6</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans7</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans8</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans9</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans10</Name>
-				</Symbol>
-				<Symbol>
-					<Name>MAIN.Trans11</Name>
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.PowerAction1</Name>
@@ -12025,6 +11992,147 @@
 					<Name>MAIN.EF115</Name>
 				</Symbol>
 				<Symbol>
+					<Name>MAIN.FInDebug</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TInDebug</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.DebugFTargetPositon</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.DebugTTargetPositon</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.F200</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.F203</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.F201</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.F202</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.F204</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.F205</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T200</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T203</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T201</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T202</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T204</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T205</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.ResetCMD</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FMoveCMD</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.F150</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FCmdIndex</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.F151</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FMoveCompleted</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TMoveCMD</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TUnloadCMD</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T150</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TCmdIndex</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T151</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TMoveCompleted</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T160</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.M160</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.M161</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T161</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T162</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.XYBusy</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TUnloadCompleted</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.XYSucked</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FDebugCMD</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TDebugCMD</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FDebugComplete</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TDebugComplete</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.SuckAlarmRst</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.PLCUnload</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.WaitPLCUnload</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.SuckFailedFlag</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T163</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.T152</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.F152</Name>
+				</Symbol>
+				<Symbol>
 					<Name>MAIN.Override1</Name>
 				</Symbol>
 				<Symbol>
@@ -12103,10 +12211,76 @@
 					<Name>MAIN.Calc_Start</Name>
 				</Symbol>
 				<Symbol>
+					<Name>MAIN.FPosition1</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FPosition2</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FPosition3</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FPosition4</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FPosition5</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FPosition6</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FPosition7</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FPosition8</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FPosition9</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FPosition10</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition1</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition2</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition3</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition4</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition5</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition6</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition7</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition8</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition9</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TPosition10</Name>
+				</Symbol>
+				<Symbol>
 					<Name>MAIN.INIT</Name>
 				</Symbol>
 				<Symbol>
 					<Name>MAIN._INIT</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.INIT_RST</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._INIT_RST</Name>
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.XYAXISRESET</Name>
@@ -12127,6 +12301,12 @@
 					<Name>MAIN._INIT1</Name>
 				</Symbol>
 				<Symbol>
+					<Name>MAIN.INIT1_RST</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._INIT1_RST</Name>
+				</Symbol>
+				<Symbol>
 					<Name>MAIN.GOPICK</Name>
 				</Symbol>
 				<Symbol>
@@ -12143,6 +12323,12 @@
 				</Symbol>
 				<Symbol>
 					<Name>MAIN._SUCKFAILED</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.SUCKFAILED1</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._SUCKFAILED1</Name>
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.GORELEASE</Name>
@@ -12181,6 +12367,24 @@
 					<Name>MAIN._FOUNDATIONFUN</Name>
 				</Symbol>
 				<Symbol>
+					<Name>MAIN.INIT2</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._INIT2</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.INIT2_RST</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._INIT2_RST</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FMOVE</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._FMOVE</Name>
+				</Symbol>
+				<Symbol>
 					<Name>MAIN.FOUNDATIONDEBUG</Name>
 				</Symbol>
 				<Symbol>
@@ -12197,6 +12401,30 @@
 				</Symbol>
 				<Symbol>
 					<Name>MAIN._TRANSPORTFUN</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.INIT3</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._INIT3</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.INIT3_RST</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._INIT3_RST</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TUNLOAD</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._TUNLOAD</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TMOVE</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN._TMOVE</Name>
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.TRANSPORTDEBUG</Name>
@@ -12238,83 +12466,6 @@
 			</Comment>
 			<IGroup>16448</IGroup>
 			<IOffset>1128</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>MAIN.Trans1</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1129</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>MAIN.Trans2</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1130</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>MAIN.Trans3</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1131</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>MAIN.Trans4</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1132</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>MAIN.Trans5</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1133</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name TaskPrio="1">MAIN.Trans6</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1134</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name TaskPrio="1">MAIN.Trans7</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1135</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>MAIN.Trans8</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1136</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name TaskPrio="1">MAIN.Trans9</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1137</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name TaskPrio="1">MAIN.Trans10</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1138</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name>MAIN.Trans11</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>1139</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -13631,6 +13782,335 @@
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
+			<Name TaskPrio="1">MAIN.FInDebug</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31847</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TInDebug</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31848</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.DebugFTargetPositon</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31849</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.DebugTTargetPositon</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31857</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.F200</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31865</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.F203</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31866</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.F201</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31867</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.F202</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31868</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.F204</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31869</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.F205</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31870</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T200</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31871</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T203</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31872</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T201</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31873</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T202</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31874</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T204</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31875</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T205</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31876</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.ResetCMD</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31877</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.FMoveCMD</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31878</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.F150</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31879</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.FCmdIndex</Name>
+			<Type>UINT</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31880</IOffset>
+			<BitSize>16</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.F151</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31882</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.FMoveCompleted</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31883</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TMoveCMD</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31884</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TUnloadCMD</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31885</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T150</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31886</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TCmdIndex</Name>
+			<Type>UINT</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31887</IOffset>
+			<BitSize>16</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T151</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31889</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TMoveCompleted</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31890</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T160</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31891</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>MAIN.M160</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31892</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>MAIN.M161</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31893</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T161</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31894</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T162</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31895</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>MAIN.XYBusy</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31896</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TUnloadCompleted</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31897</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.XYSucked</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31898</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.FDebugCMD</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31899</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TDebugCMD</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31900</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.FDebugComplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31901</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TDebugComplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31902</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.SuckAlarmRst</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31903</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.PLCUnload</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31904</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.WaitPLCUnload</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31905</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.SuckFailedFlag</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31906</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T163</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31907</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.T152</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31908</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.F152</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31909</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
 			<Name Persistent="1" TaskPrio="1">MAIN.Override1</Name>
 			<Type>UINT</Type>
 			<Comment>
@@ -13676,14 +14156,14 @@
 			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name Persistent="1">MAIN.WaitPositionX</Name>
+			<Name Persistent="1" TaskPrio="1">MAIN.WaitPositionX</Name>
 			<Type>LREAL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>31831</IOffset>
 			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name Persistent="1">MAIN.WaitPositionY</Name>
+			<Name Persistent="1" TaskPrio="1">MAIN.WaitPositionY</Name>
 			<Type>LREAL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>31839</IOffset>
@@ -13704,7 +14184,7 @@
 			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name Persistent="1" TaskPrio="1">MAIN.InitPositionF</Name>
+			<Name Persistent="1">MAIN.InitPositionF</Name>
 			<Type>LREAL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>27038</IOffset>
@@ -13718,7 +14198,7 @@
 			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name Persistent="1" TaskPrio="1">MAIN.TransPositionT1</Name>
+			<Name Persistent="1">MAIN.TransPositionT1</Name>
 			<Type>LREAL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>27054</IOffset>
@@ -13814,6 +14294,146 @@
 			<IGroup>16448</IGroup>
 			<IOffset>27330</IOffset>
 			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.FPosition1</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31910</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.FPosition2</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31918</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.FPosition3</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31926</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.FPosition4</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31934</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.FPosition5</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31942</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.FPosition6</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31950</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.FPosition7</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31958</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1">MAIN.FPosition8</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31966</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1">MAIN.FPosition9</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31974</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1">MAIN.FPosition10</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31982</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.TPosition1</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31990</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.TPosition2</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>31998</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.TPosition3</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32006</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.TPosition4</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32014</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">MAIN.TPosition5</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32022</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1">MAIN.TPosition6</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32030</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1">MAIN.TPosition7</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32038</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1">MAIN.TPosition8</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32046</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1">MAIN.TPosition9</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32054</IOffset>
+			<BitSize>64</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1">MAIN.TPosition10</Name>
+			<Type>LREAL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32062</IOffset>
+			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.AMSPORT_LOGGER</Name>
