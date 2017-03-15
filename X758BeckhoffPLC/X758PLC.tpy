@@ -4,7 +4,7 @@
 	<ProjectInfo>
 		<Path>D:\工作\WorkwithGit\淮安X758项目\X758No2\BECKHOFF\X758BeckhoffPLC\X758PLC.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2017-03-13T21:42:16</ChangeDate>
+		<ChangeDate>2017-03-15T22:31:29</ChangeDate>
 		<Library>
 			<Name>TcBase.lib</Name>
 			<Path>C:\TwinCAT\PLC\LIB\TcBase.lib</Path>
@@ -11463,7 +11463,7 @@
 	</Functions>
 	<Programs>
 		<Program>
-			<Name Decoration="1147C851" Crc32="2761967089" LastChange="2017-03-13T21:42:16">MAIN</Name>
+			<Name Decoration="114C518D" Crc32="3481105393" LastChange="2017-03-15T22:31:29">MAIN</Name>
 			<PrgInfo>
 				<CodeIndex>494</CodeIndex>
 				<Symbol>
@@ -12134,6 +12134,21 @@
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.ResetCMDComplete</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TON100</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TON101</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TON102</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TON110</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TON111</Name>
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.Override1</Name>
@@ -14119,6 +14134,41 @@
 			<IGroup>16448</IGroup>
 			<IOffset>1129</IOffset>
 			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TON100</Name>
+			<Type Decoration="10060D24">TON</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32090</IOffset>
+			<BitSize>120</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TON101</Name>
+			<Type Decoration="10060D24">TON</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32105</IOffset>
+			<BitSize>120</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TON102</Name>
+			<Type Decoration="10060D24">TON</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32120</IOffset>
+			<BitSize>120</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TON110</Name>
+			<Type Decoration="10060D24">TON</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32135</IOffset>
+			<BitSize>120</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TON111</Name>
+			<Type Decoration="10060D24">TON</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32150</IOffset>
+			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Persistent="1" TaskPrio="1">MAIN.Override1</Name>
