@@ -4,7 +4,7 @@
 	<ProjectInfo>
 		<Path>D:\工作\WorkwithGit\淮安X758项目\X758No2\BECKHOFF\X758BeckhoffPLC\X758PLC.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2017-03-18T13:35:43</ChangeDate>
+		<ChangeDate>2017-03-19T16:34:17</ChangeDate>
 		<Library>
 			<Name>TcBase.lib</Name>
 			<Path>C:\TwinCAT\PLC\LIB\TcBase.lib</Path>
@@ -14304,7 +14304,7 @@
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="10079EE8" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\TcUtilities.lib">DATA_TO_HEXSTR</Name>
+			<Name Decoration="10079A3F" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\TcUtilities.lib">DATA_TO_HEXSTR</Name>
 			<FunInfo>
 				<CodeIndex>506</CodeIndex>
 				<ReturnValue>
@@ -18282,7 +18282,7 @@
 	</Functions>
 	<Programs>
 		<Program>
-			<Name Decoration="114E0880" Crc32="2914466995" LastChange="2017-03-18T13:35:43">MAIN</Name>
+			<Name Decoration="11546CD0" Crc32="2170444212" LastChange="2017-03-19T16:34:17">MAIN</Name>
 			<PrgInfo>
 				<CodeIndex>494</CodeIndex>
 				<Symbol>
@@ -18974,6 +18974,24 @@
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.SaveButton</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.M420</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.M1202</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.AlarmStr</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.XYRDYtoDebug</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.FRDYtoDebug</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.TRDYtoDebug</Name>
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.Override1</Name>
@@ -21010,6 +21028,48 @@
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
+			<Name TaskPrio="1">MAIN.M420</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32832</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.M1202</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32833</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.AlarmStr</Name>
+			<Type Decoration="40000051">STRING(80)</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32834</IOffset>
+			<BitSize>648</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.XYRDYtoDebug</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32915</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.FRDYtoDebug</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32916</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.TRDYtoDebug</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>32917</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
 			<Name Persistent="1" TaskPrio="1">MAIN.Override1</Name>
 			<Type>UINT</Type>
 			<Comment>
@@ -22991,7 +23051,7 @@
 				<![CDATA[2..100]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>32832</IOffset>
+			<IOffset>32918</IOffset>
 			<BitSize>16</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23001,7 +23061,7 @@
 				<![CDATA[IEC prefixes for binary, octal or hexadecimal type]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>32834</IOffset>
+			<IOffset>32920</IOffset>
 			<BitSize>16</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23011,7 +23071,7 @@
 				<![CDATA[Windows SBCS (Single Byte Character Set) Code Page Table]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>32836</IOffset>
+			<IOffset>32922</IOffset>
 			<BitSize>16</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23021,7 +23081,7 @@
 				<![CDATA[0 == pulse < 140ms, 1 == pulse > 140]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>32838</IOffset>
+			<IOffset>32924</IOffset>
 			<BitSize>32</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23031,7 +23091,7 @@
 				<![CDATA[TRUE = Enable plausibility check (two telegrams are checked), FALSE = Disable check]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>32842</IOffset>
+			<IOffset>32928</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23041,7 +23101,7 @@
 				<![CDATA[semicolon (;) := 16#3B => german field separator, comma (,) := 16#2C => US field separator]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>32843</IOffset>
+			<IOffset>32929</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23051,7 +23111,7 @@
 				<![CDATA[System Service file functions]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>40528</IOffset>
+			<IOffset>40614</IOffset>
 			<BitSize>1168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23061,7 +23121,7 @@
 				<![CDATA[Lower and upper case ASCII codes of hexadecimal digits]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>40674</IOffset>
+			<IOffset>40760</IOffset>
 			<BitSize>80</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23071,7 +23131,7 @@
 				<![CDATA[ASCII to decimal and decimal digits to ASCII codes]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>40684</IOffset>
+			<IOffset>40770</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23081,7 +23141,7 @@
 				<![CDATA[Default precision values ( -1 => disabled (prints all characters or has special function)]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>40716</IOffset>
+			<IOffset>40802</IOffset>
 			<BitSize>80</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23091,7 +23151,7 @@
 				<![CDATA[plc var type support mask]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>40726</IOffset>
+			<IOffset>40812</IOffset>
 			<BitSize>192</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23101,7 +23161,7 @@
 				<![CDATA[TYPEFIELD_EL]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>40750</IOffset>
+			<IOffset>40836</IOffset>
 			<BitSize>1824</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23111,7 +23171,7 @@
 				<![CDATA[PREFIXFLAG_HASH]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>40978</IOffset>
+			<IOffset>41064</IOffset>
 			<BitSize>384</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23121,56 +23181,56 @@
 				<![CDATA[HASHPREFIX_STDC]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>41026</IOffset>
+			<IOffset>41112</IOffset>
 			<BitSize>2112</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.ARGTYPE_IS_SIGNED_TYPE</Name>
 			<Type Decoration="20010149">ARRAY [0..18] OF BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>41290</IOffset>
+			<IOffset>41376</IOffset>
 			<BitSize>152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.ARGTYPE_IS_FLOAT_TYPE</Name>
 			<Type Decoration="20010149">ARRAY [0..18] OF BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>41309</IOffset>
+			<IOffset>41395</IOffset>
 			<BitSize>152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.ARGTYPE_IS_STRING_TYPE</Name>
 			<Type Decoration="20010149">ARRAY [0..18] OF BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>41328</IOffset>
+			<IOffset>41414</IOffset>
 			<BitSize>152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.ARGTYPE_IS_UNSIGNED_TYPE</Name>
 			<Type Decoration="20010149">ARRAY [0..18] OF BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>41347</IOffset>
+			<IOffset>41433</IOffset>
 			<BitSize>152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.ARGTYPE_IS_BIT_TYPE</Name>
 			<Type Decoration="20010149">ARRAY [0..18] OF BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>41366</IOffset>
+			<IOffset>41452</IOffset>
 			<BitSize>152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.SYSTEMTIME_MAX_MONTHDAYS</Name>
 			<Type Decoration="2002015B">ARRAY [0..1, 1..12] OF WORD</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>41385</IOffset>
+			<IOffset>41471</IOffset>
 			<BitSize>384</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.SYSTEMTIME_MAX_YEARSDAY</Name>
 			<Type Decoration="2002015B">ARRAY [0..1, 0..13] OF WORD</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>41433</IOffset>
+			<IOffset>41519</IOffset>
 			<BitSize>448</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23180,7 +23240,7 @@
 				<![CDATA[Number of 100ns ticks per millisecond]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>41489</IOffset>
+			<IOffset>41575</IOffset>
 			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23190,7 +23250,7 @@
 				<![CDATA[Number of 100ns ticks per second]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>41497</IOffset>
+			<IOffset>41583</IOffset>
 			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23200,7 +23260,7 @@
 				<![CDATA[Number of 100ns ticks per day]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>41505</IOffset>
+			<IOffset>41591</IOffset>
 			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23210,7 +23270,7 @@
 				<![CDATA[min. DT value as file time DT#1970-01-01-00:00:00]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>41513</IOffset>
+			<IOffset>41599</IOffset>
 			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23220,7 +23280,7 @@
 				<![CDATA[max. DT value as file time DT#2106-02-06-06:28:15]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>41521</IOffset>
+			<IOffset>41607</IOffset>
 			<BitSize>64</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23230,14 +23290,14 @@
 				<![CDATA[Windows SBCS tables]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>41529</IOffset>
+			<IOffset>41615</IOffset>
 			<BitSize>864</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.SBCS_TABLES</Name>
 			<Type Decoration="2001635C">ARRAY [1..2] OF ST_SBCSTable</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>41637</IOffset>
+			<IOffset>41723</IOffset>
 			<BitSize>4096</BitSize>
 		</Symbol>
 		<Symbol>
@@ -23247,14 +23307,14 @@
 				<![CDATA[CRC16-CCITT lookup table ( 0x1021 as generator polynomial )]]>
 			</Comment>
 			<IGroup>16448</IGroup>
-			<IOffset>42149</IOffset>
+			<IOffset>42235</IOffset>
 			<BitSize>2048</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Constant="1" IsDefinedInLibrary="1">.GLOBAL_CRC_CCITT_TABLE</Name>
 			<Type Decoration="2001024D">ARRAY [0..255] OF WORD</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>42405</IOffset>
+			<IOffset>42491</IOffset>
 			<BitSize>4096</BitSize>
 		</Symbol>
 		<Symbol>
