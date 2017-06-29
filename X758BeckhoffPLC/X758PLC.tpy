@@ -4,7 +4,7 @@
 	<ProjectInfo>
 		<Path>D:\工作\WorkwithGit\淮安X758项目\X758No2\BECKHOFF\X758BeckhoffPLC\X758PLC.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2017-06-28T15:32:52</ChangeDate>
+		<ChangeDate>2017-06-29T22:37:02</ChangeDate>
 		<Library>
 			<Name>TcBase.lib</Name>
 			<Path>C:\TwinCAT\PLC\LIB\TcBase.lib</Path>
@@ -18282,7 +18282,7 @@
 	</Functions>
 	<Programs>
 		<Program>
-			<Name Decoration="115BB846" Crc32="1047963046" LastChange="2017-06-28T15:32:52">MAIN</Name>
+			<Name Decoration="115BB846" Crc32="0416360925" LastChange="2017-06-29T22:37:02">MAIN</Name>
 			<PrgInfo>
 				<CodeIndex>494</CodeIndex>
 				<Symbol>
