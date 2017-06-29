@@ -4,7 +4,7 @@
 	<ProjectInfo>
 		<Path>D:\工作\WorkwithGit\淮安X758项目\X758No2\BECKHOFF\X758BeckhoffPLC\X758PLC.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2017-03-26T16:59:45</ChangeDate>
+		<ChangeDate>2017-06-28T15:32:52</ChangeDate>
 		<Library>
 			<Name>TcBase.lib</Name>
 			<Path>C:\TwinCAT\PLC\LIB\TcBase.lib</Path>
@@ -43,10 +43,10 @@
 	</ProjectInfo>
 	<RoutingInfo>
 		<AdsInfo>
-			<NetId>10.89.213.102.1.1</NetId>
+			<NetId>192.168.10.100.1.1</NetId>
 			<Port>801</Port>
 			<TargetName>
-				<![CDATA[Target: SB-X758N02 (10.89.213.102.1.1), Run Time: 1]]>
+				<![CDATA[Target: SB-X758-LDR03 (192.168.10.100.1.1), Run Time: 1]]>
 			</TargetName>
 		</AdsInfo>
 	</RoutingInfo>
@@ -18282,7 +18282,7 @@
 	</Functions>
 	<Programs>
 		<Program>
-			<Name Decoration="115A9C7B" Crc32="3235982727" LastChange="2017-03-26T16:59:45">MAIN</Name>
+			<Name Decoration="115BB846" Crc32="1047963046" LastChange="2017-06-28T15:32:52">MAIN</Name>
 			<PrgInfo>
 				<CodeIndex>494</CodeIndex>
 				<Symbol>
@@ -19010,6 +19010,9 @@
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.TErrorCode</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.R_TRIG_M420</Name>
 				</Symbol>
 				<Symbol>
 					<Name>MAIN.Override1</Name>
@@ -21128,6 +21131,13 @@
 			<IGroup>16448</IGroup>
 			<IOffset>57385</IOffset>
 			<BitSize>32</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.R_TRIG_M420</Name>
+			<Type Decoration="1003051C">R_TRIG</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>57389</IOffset>
+			<BitSize>24</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Persistent="1" TaskPrio="1">MAIN.Override1</Name>
